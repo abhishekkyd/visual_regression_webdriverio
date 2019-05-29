@@ -1,0 +1,38 @@
+{
+  "name": "visual_regression_webdriverio",
+  "version": "1.0.0",
+  "description": "Visual regression using WebDriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "Abhishek Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "phantomjs": "^1.9.20",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-screenshot": "^0.2.3",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriverio": "^4.14.4"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.9.3",
+    "@wdio/cli": "^5.9.4",
+    "allure-commandline": "^2.9.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "node-notifier": "^5.4.0",
+    "wdio-image-comparison-service": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
